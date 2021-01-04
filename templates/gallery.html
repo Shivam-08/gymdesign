@@ -1,0 +1,125 @@
+{% extends 'base.html'%}
+
+{% block title%}Gallery
+{% endblock title%}
+
+{% block head %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+<link rel="stylesheet"
+    href="https://demo.tutorialzine.com/2018/03/3-amazing-bootstrap-4-gallery-templates/assets/css/compact-gallery.css">
+{% endblock head%}
+
+
+{%block body%}
+<section class="gallery-block compact-gallery">
+    <div class="container">
+        <div class="heading">
+            <h2>Our Projects Gallery</h2>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                <a class="lightbox"
+                    href="https://image.shutterstock.com/image-photo/rows-stationary-bike-gym-modern-600w-521986399.jpg">
+                    <img class="img-fluid image"
+                        src="https://image.shutterstock.com/image-photo/rows-stationary-bike-gym-modern-600w-521986399.jpg">
+                    <span class="description">
+                        <span class="description-heading">Ace Club</span>
+                        <span class="description-body">Our very First design of gym in Chandigarh.</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                <a class="lightbox"
+                    href="https://www.trendrr.net/wp-content/uploads/2017/05/Gold%E2%80%99s-Gym-Top-Popular-Gyms-in-The-World-2018.jpg">
+                    <img class="img-fluid image"
+                        src="https://www.trendrr.net/wp-content/uploads/2017/05/Gold%E2%80%99s-Gym-Top-Popular-Gyms-in-The-World-2018.jpg">
+                    <span class="description">
+                        <span class="description-heading">Gold's Gym</span>
+                        <span class="description-body">Setup a Gold's Gym in Mumbai.</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                <a class="lightbox" href="https://www.trendrr.net/wp-content/uploads/2017/05/MizzouRec.jpg">
+                    <img class="img-fluid image" src="https://www.trendrr.net/wp-content/uploads/2017/05/MizzouRec.jpg">
+                    <span class="description">
+                        <span class="description-heading">MizzouRec Club</span>
+                        <span class="description-body">Very Basic design of Health Club.</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                <a class="lightbox"
+                    href="https://media.architecturaldigest.com/photos/55e76658cd709ad62e8e8203/master/w_900,h_600,c_limit/dam-images-architecture-2015-05-high-design-gyms-high-design-gyms-around-the-world-04.jpg">
+                    <img class="img-fluid image"
+                        src="https://media.architecturaldigest.com/photos/55e76658cd709ad62e8e8203/master/w_900,h_600,c_limit/dam-images-architecture-2015-05-high-design-gyms-high-design-gyms-around-the-world-04.jpg">
+                    <span class="description">
+                        <span class="description-heading">Sydney Club</span>
+                        <span class="description-body">Combine setup of strength training and calisthenics in one area.</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                <a class="lightbox"
+                    href="https://www.trendrr.net/wp-content/uploads/2017/05/Original-Temple-Gym.jpg">
+                    <img class="img-fluid image"
+                        src="https://www.trendrr.net/wp-content/uploads/2017/05/Original-Temple-Gym.jpg">
+                    <span class="description">
+                        <span class="description-heading">Temple Gym</span>
+                        <span class="description-body">Try to setup a Original Temple Gym like in India.</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                <a class="lightbox"
+                    href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ts-1546173731.jpg?crop=1xw:1xh;center,top&resize=768:*">
+                    <img class="img-fluid image"
+                        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ts-1546173731.jpg?crop=1xw:1xh;center,top&resize=768:*">
+                    <span class="description">
+                        <span class="description-heading">Third Space</span>
+                        <span class="description-body">Setup a interactive cycling section in Third Space.</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                <a class="lightbox"
+                    href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ff-1546174283.jpg?crop=1xw:1xh;center,top&resize=768:*">
+                    <img class="img-fluid image"
+                        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ff-1546174283.jpg?crop=1xw:1xh;center,top&resize=768:*">
+                    <span class="description">
+                        <span class="description-heading">David's Gym.</span>
+                        <span class="description-body">A good Gym setup for a small area.</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                <a class="lightbox"
+                    href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/blok-1-1546175337.jpg?crop=1xw:1xh;center,top&resize=768:*">
+                    <img class="img-fluid image"
+                        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/blok-1-1546175337.jpg?crop=1xw:1xh;center,top&resize=768:*">
+                    <span class="description">
+                        <span class="description-heading">Arena</span>
+                        <span class="description-body">Boxing section for athletes.</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                <a class="lightbox"
+                    href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/six3nine-1546173877.png?crop=1xw:1xh;center,top&resize=768:*">
+                    <img class="img-fluid image"
+                        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/six3nine-1546173877.png?crop=1xw:1xh;center,top&resize=768:*">
+                    <span class="description">
+                        <span class="description-heading">Jungle Run.</span>
+                        <span class="description-body">A very first project in Dubai.</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.compact-gallery', { animation: 'slideIn' });
+</script>
+{%endblock body%}

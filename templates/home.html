@@ -1,0 +1,160 @@
+{%extends 'base.html' %}
+
+{%block title%}Home
+{%endblock title%}
+
+{%block body%}
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://source.unsplash.com/CQfNt66ttZM/1000x400" class='d-block'>
+                <rect width="100%" height="100%" fill="#777" />
+            </img>
+
+            <div class="container">
+                <div class="carousel-caption text-start">
+                    <h1>Quote</h1>
+                    <p> ‘Success usually comes to those who are too busy to be looking for it.’</p>
+                    <p><a class="btn btn-lg btn-primary" href="/signup" role="button">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://source.unsplash.com/2mz9IKab7DE/1000x400" class='d-block'>
+                <rect width="100%" height="100%" fill="#777" />
+            </img>
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Quote</h1>
+                    <p>‘If you think lifting is dangerous, try being weak. Being weak is dangerous.’</p>
+                    <p><a class="btn btn-lg btn-primary" href="/about" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+             <img src="https://source.unsplash.com/mi4Gfdl36yg/1000x400" class='d-block'>
+                <rect width="100%" height="100%" fill="#777" />
+            </img>
+
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>Quote</h1>
+                    <p>‘The clock is ticking. Are you becoming the person you want to be?’</p>
+                    <p><a class="btn btn-lg btn-primary" href="/gallery" role="button">Browse gallery</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+
+
+<!-- Marketing messaging and featurettes
+  ================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="https://source.unsplash.com/QZRAaYfmvA8/140x140" class='d-block'>
+                <rect width="100%" height="100%" fill="#777" />
+            </img> 
+            <h2>Sheila</h2>
+            <p>"I really love the way in which they design the gym.I recommend them as they offer perfect decorating solutions." </p>
+        </div><!-- /.col-lg-4 -->
+        
+        <div class="col-lg-4">
+            <img src="https://source.unsplash.com/XhMSz5I1kn8/140x140" class='d-block'>
+                <rect width="100%" height="100%" fill="#777" />
+            </img>
+            <h2>Mark Dallas</h2>
+            <p>"Their commitment towards work and professional approach helped us to complete the gym."</p>
+        </div><!-- /.col-lg-4 -->
+        
+        <div class="col-lg-4">
+           <img src="https://source.unsplash.com/d2MSDujJl2g/140x140" class='d-block'>
+                <rect width="100%" height="100%" fill="#777" />
+            </img> 
+
+            <h2>Tony</h2>
+            <p>"The team was very sensitive to the design needs and went to extra-ordinary lengths to develop appopriate design."</p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">First featurette.<span class="text-muted">It’ll blow your
+                    mind.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="https://source.unsplash.com/LWP7l0zsNqs/500x500" class='d-block'>
+                <rect width="100%" height="100%" fill="#777" />
+            </img> 
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2 container px-5">
+            <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span>
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="https://source.unsplash.com/9MR78HGoflw/500x500" class='d-block'>
+                <rect width="100%" height="100%" fill="#777" />
+            </img> 
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="https://source.unsplash.com/ltq_MruDgkc/500x500" class='d-block'>
+                <rect width="100%" height="100%" fill="#777" />
+            </img> 
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+</div><!-- /.container -->
+{%endblock body%}
